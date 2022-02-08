@@ -8,6 +8,7 @@ export default class Layout {
 	get COMPONENTS_LIST(){
 		return [
 			'TestComponent',
+			'HeaderComponent',
 			'TestBetaComponent'
 		];
 	}

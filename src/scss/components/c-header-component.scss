@@ -1,0 +1,18 @@
+.c-header-component {
+    z-index: $z-i-header;
+    .header-component__wrapper {
+            background-color: aqua;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            color: $font-color;
+            display: flex;
+            justify-content: space-between;
+            .header-component__logo {
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }

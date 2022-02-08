@@ -9,11 +9,11 @@
  * you can use the index() sass function, for i.e. .modal {z-index: index($elements, modal)}
  */
 
-$base-elements:  main, pdp-bar, header, mainmenu, searchbar, sidebar, modal, zoom;
+$base-elements:  main, header, pdp-bar, mainmenu, searchbar, sidebar, modal, zoom;
 //## Playing with system wide z-indexes
 $z-i-main     : index($base-elements, main);
-$z-i-pdp-bar     : index($base-elements, pdp-bar);
 $z-i-header   : index($base-elements, header);
+$z-i-pdp-bar     : index($base-elements, pdp-bar);
 $z-i-searchbar    : index($base-elements, searchbar);
 $z-i-sidebar : index($base-elements,sidebar);
 $z-i-menu    : index($base-elements, mainmenu);

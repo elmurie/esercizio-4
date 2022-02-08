@@ -1,0 +1,9 @@
+/* FROM MODULES */
+/*GLIDE*/
+@import "node_modules/@glidejs/glide/src/assets/sass/glide.core";
+
+/* SIMPLEBAR */
+@import "~simplebar/dist/simplebar.css";
+
+/* SOME OTHER VENDOR INTO current 'vendors' dir */
+@import "v-some-vendor";

@@ -1,0 +1,34 @@
+@use "sass:map";
+@use "sass:meta";
+
+$theme-custom-colors: () !default;
+$theme-default-colors: (
+    'primary':#000000 ,
+    'secondary': #ffffff,
+    'tertiary':#727C8B,
+    'light':#ffffff,
+    'smoke-light': #F5F5F5,
+    'smoke-gray' : #727C8B,
+    'gray': #808080,
+    'dark-gray': #3f4650,
+    'dark': #2B2B2B,
+    'text-light': #ffffff,
+    'text-dark' : #1C1C1C,
+    'text-gray' : #727C8B,
+    'black' : #000000,
+    'success': #00a905,
+    'warning': #fa6700,
+    'error': #B30E12
+);
+
+@function setUpColors(){
+    @if meta.variable-exists('theme-custom-colors'){
+        @return map.merge($theme-default-colors,$theme-custom-colors);
+    }
+}
+
+$theme-colors : setUpColors();
+
+@function getColor($key:'primary') {
+    @return map.get($theme-colors, $key)
+}

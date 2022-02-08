@@ -1,3 +1,4 @@
+"use strict";
 (self["webpackChunkwip_chunks_boilerplate"] = self["webpackChunkwip_chunks_boilerplate"] || []).push([["component-HeaderComponent"],{
 
 /***/ "./src/js/components/HeaderComponent.js":
@@ -6,7 +7,6 @@
   \**********************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-"use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (/* binding */ HeaderComponent)
@@ -71,11 +71,13 @@ var HeaderComponent = /*#__PURE__*/function (_Component) {
 /*!*****************************************************!*\
   !*** ./src/scss/components/c-header-component.scss ***!
   \*****************************************************/
-/***/ (() => {
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-throw new Error("Module build failed (from ./node_modules/mini-css-extract-plugin/dist/loader.js):\nModuleBuildError: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):\nSassError: expected \";\".\n   ╷\n10 │     background-color: blue\r\n   │                           ^\n   ╵\n  src\\scss\\components\\c-header-component.scss 10:27  root stylesheet\n    at processResult (C:\\Users\\elmur\\OneDrive\\Desktop\\WIP\\formazione\\esercizio-4\\node_modules\\webpack\\lib\\NormalModule.js:753:19)\n    at C:\\Users\\elmur\\OneDrive\\Desktop\\WIP\\formazione\\esercizio-4\\node_modules\\webpack\\lib\\NormalModule.js:855:5\n    at C:\\Users\\elmur\\OneDrive\\Desktop\\WIP\\formazione\\esercizio-4\\node_modules\\loader-runner\\lib\\LoaderRunner.js:399:11\n    at C:\\Users\\elmur\\OneDrive\\Desktop\\WIP\\formazione\\esercizio-4\\node_modules\\loader-runner\\lib\\LoaderRunner.js:251:18\n    at context.callback (C:\\Users\\elmur\\OneDrive\\Desktop\\WIP\\formazione\\esercizio-4\\node_modules\\loader-runner\\lib\\LoaderRunner.js:124:13)\n    at C:\\Users\\elmur\\OneDrive\\Desktop\\WIP\\formazione\\esercizio-4\\node_modules\\sass-loader\\dist\\index.js:54:7\n    at Function.call$2 (C:\\Users\\elmur\\OneDrive\\Desktop\\WIP\\formazione\\esercizio-4\\node_modules\\sass\\sass.dart.js:99012:16)\n    at render_closure1.call$2 (C:\\Users\\elmur\\OneDrive\\Desktop\\WIP\\formazione\\esercizio-4\\node_modules\\sass\\sass.dart.js:84527:12)\n    at _RootZone.runBinary$3$3 (C:\\Users\\elmur\\OneDrive\\Desktop\\WIP\\formazione\\esercizio-4\\node_modules\\sass\\sass.dart.js:29558:18)\n    at _FutureListener.handleError$1 (C:\\Users\\elmur\\OneDrive\\Desktop\\WIP\\formazione\\esercizio-4\\node_modules\\sass\\sass.dart.js:28080:21)");
+__webpack_require__.r(__webpack_exports__);
+// extracted by mini-css-extract-plugin
+
 
 /***/ })
 
 }]);
-//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY29tcG9uZW50LUhlYWRlckNvbXBvbmVudC40MDE1ODkyLmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBQUE7QUFDQTs7SUFFcUJDOzs7OztBQUNwQiwyQkFBWUMsTUFBWixFQUFvQjtBQUFBOztBQUFBLDZCQUNiQSxNQURhO0FBRW5COzs7O1dBRUQsZ0JBQU87QUFDTjtBQUNBOzs7O0VBUDJDRiIsInNvdXJjZXMiOlsid2VicGFjazovLy8uL3NyYy9qcy9jb21wb25lbnRzL0hlYWRlckNvbXBvbmVudC5qcyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgQ29tcG9uZW50IGZyb20gJy4uL2Fic3RyYWN0cy9Db21wb25lbnQnO1xyXG5pbXBvcnQgJ1Njc3NDb21wb25lbnRzL2MtaGVhZGVyLWNvbXBvbmVudCc7XHJcblxyXG5leHBvcnQgZGVmYXVsdCBjbGFzcyBIZWFkZXJDb21wb25lbnQgZXh0ZW5kcyBDb21wb25lbnQge1xyXG5cdGNvbnN0cnVjdG9yKGNvbXBFbCkge1xyXG5cdFx0c3VwZXIoY29tcEVsKTtcclxuXHR9XHJcblxyXG5cdGluaXQoKSB7XHJcblx0XHRzdXBlci5pbml0KCk7XHJcblx0fVxyXG59XHJcbiJdLCJuYW1lcyI6WyJDb21wb25lbnQiLCJIZWFkZXJDb21wb25lbnQiLCJjb21wRWwiXSwic291cmNlUm9vdCI6IiJ9
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiY29tcG9uZW50LUhlYWRlckNvbXBvbmVudC4wMDliZmE3LmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBQUE7QUFDQTs7SUFFcUJDOzs7OztBQUNwQiwyQkFBWUMsTUFBWixFQUFvQjtBQUFBOztBQUFBLDZCQUNiQSxNQURhO0FBRW5COzs7O1dBRUQsZ0JBQU87QUFDTjtBQUNBOzs7O0VBUDJDRjs7Ozs7Ozs7Ozs7OztBQ0g3QyIsInNvdXJjZXMiOlsid2VicGFjazovLy8uL3NyYy9qcy9jb21wb25lbnRzL0hlYWRlckNvbXBvbmVudC5qcyIsIndlYnBhY2s6Ly8vLi9zcmMvc2Nzcy9jb21wb25lbnRzL2MtaGVhZGVyLWNvbXBvbmVudC5zY3NzP2FiZTIiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IENvbXBvbmVudCBmcm9tICcuLi9hYnN0cmFjdHMvQ29tcG9uZW50JztcclxuaW1wb3J0ICdTY3NzQ29tcG9uZW50cy9jLWhlYWRlci1jb21wb25lbnQnO1xyXG5cclxuZXhwb3J0IGRlZmF1bHQgY2xhc3MgSGVhZGVyQ29tcG9uZW50IGV4dGVuZHMgQ29tcG9uZW50IHtcclxuXHRjb25zdHJ1Y3Rvcihjb21wRWwpIHtcclxuXHRcdHN1cGVyKGNvbXBFbCk7XHJcblx0fVxyXG5cclxuXHRpbml0KCkge1xyXG5cdFx0c3VwZXIuaW5pdCgpO1xyXG5cdH1cclxufVxyXG4iLCIvLyBleHRyYWN0ZWQgYnkgbWluaS1jc3MtZXh0cmFjdC1wbHVnaW5cbmV4cG9ydCB7fTsiXSwibmFtZXMiOlsiQ29tcG9uZW50IiwiSGVhZGVyQ29tcG9uZW50IiwiY29tcEVsIl0sInNvdXJjZVJvb3QiOiIifQ==

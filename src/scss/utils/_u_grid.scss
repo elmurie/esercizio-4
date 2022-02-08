@@ -23,7 +23,7 @@ $viewports: (
   $currBreak: map.get($viewports, $viewportRef);
   $selectedViewport: map.get($currBreak, 'base');
   $viewportTotal: $selectedViewport - 1;
-  @media screen and (max-width: $viewportTotal*1px) {
+  @media screen and (max-width: ($viewportTotal*1px)) {
     @content;
   }
 }
@@ -32,7 +32,7 @@ $viewports: (
   $currBreak: map.get($viewports, $viewportRef);
   $selectedViewport: map.get($currBreak, 'base');
   $viewportTotal: $selectedViewport;
-  @media screen and (min-width: $viewportTotal*1px) {
+  @media screen and (min-width: ($viewportTotal*1px)) {
     @content;
   }
 }

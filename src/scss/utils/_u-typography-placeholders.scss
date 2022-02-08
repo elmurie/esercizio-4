@@ -1,5 +1,14 @@
-$base-font-family: var(--base-font-family);
-$display-font-family: var(--display-font-family);
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,700&display=swap');
+// $base-font-family: var(--base-font-family);
+$base-font-family: 'Nunito Sans', sans-serif;
+// $display-font-family: var(--display-font-family);
+$display-font-family: 'Poppins', sans-serif;
+
+// @font-face {
+//     font-family: NunitoSans;
+//     src: url(../../fonts/NunitoSans-Regular.ttf);
+// }
 
 //Font weights
 $font-regular: unquote('normal');

@@ -34,7 +34,7 @@ module.exports = {
   },
   plugins: [
     new CleanWebpackPlugin({
-      cleanStaleWebpackAssets: false
+      cleanStaleWebpackAssets: true
     }),
     // Extract css files to separate bundle
     new MiniCssExtractPlugin({

@@ -9,6 +9,7 @@ export default class Layout {
 		return [
 			'TestComponent',
 			'HeaderComponent',
+			'MainComponent',
 			'TestBetaComponent'
 		];
 	}

@@ -2,6 +2,8 @@
 /**
  * Ref: http://www.modularscale.com/
  */
+@use "sass:math";
+
 $rem-baseline: 10;
 $global-font-size: 62.5%;
 
@@ -18,9 +20,9 @@ $global-font-size: 62.5%;
     /* If value is a number, do some magic rem stuff */
     @if type-of($value) == "number" {
         /* Slightly hacky way of removing unit */
-        $unitless-value: $value / ($value * 0 + 1);
+        $unitless-value: math.div($value, $value * 0 + 1);
         /* Return rem value */
-        @return #{$unitless-value / $rem-baseline}rem;
+        @return #{math.div($unitless-value, $rem-baseline)}rem;
     }
     /* Non-numeric value, just return */
     @return $value;

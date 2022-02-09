@@ -1,0 +1,12 @@
+.c-main-component {
+    .main__wrapper {
+        @include mainContainer();
+    }
+    .title {
+        @extend %typo-h1;
+    }
+}
+@include responsiveFrom('lg') {
+    .c-main-component {
+    }
+}
